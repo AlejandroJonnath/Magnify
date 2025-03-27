@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnify - Reproductor de Videos</title>
+    <link rel="stylesheet" href="css/magnify.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Magnify - Reproductor de Videos 🎵</h1>
+        <div class="video-container">
+            <div id="videoPlayer"></div>
+        </div>
+
+        <div class="controls">
+            <button id="playBtn">▶ Play</button>
+            <button id="pauseBtn">⏸ Pause</button>
+            <button id="repeatBtn">🔄 Repetir</button>
+            <button id="addListBtn">➕ Agregar a lista</button>
+            <button id="removeListBtn">🗑 Eliminar de mi lista</button>
+        </div>
+
+        <h2>📜 Lista de Reproducción:</h2>
+        <ul id="videoList"></ul>
+
+        <div id="notification" class="notification"></div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="magnify.js"></script>
+</body>
+</html>
