@@ -10,7 +10,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     messageDiv.style.textAlign = "center";
     messageDiv.style.transition = "all 0.3s ease-in-out";
 
-    if (username === 'Adriel' && password === 'adriel2002') {
+    if (username === 'Adriel' && password === 'patata2002') {
         messageDiv.style.color = "#00ff00";
         messageDiv.innerHTML = "🟢 Conectando al servidor...";
         
